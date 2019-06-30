@@ -48,7 +48,7 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 subsetting **MergedData**, by only selecting columns: **subjects** and **activity** together with the **mean** and the **standard deviation** for each measurement.
 *contains: 10299 rows and 88 columns*
 
-**Step3:Uses descriptive activity names to name the activities in the data set**
+**Step3: Uses descriptive activity names to name the activities in the data set**
 Each numbers in the **activity** column from the **tidyDataSet** is replaced with its corresponding activity from the **second column** of the **activities** variable
 
 **Step4: Appropriately labels the data set with descriptive variable names.**
