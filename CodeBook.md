@@ -45,7 +45,7 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 
 **Step2: Extracts only the measurements on the mean and standard deviation for each measurement.**
 **tidyDataSet**  is created by:
-subsetting **MergedData**, and only selecting columns: **subjects** and **activity** together with the **mean** and the **standard deviation** for each measurement.
+subsetting **MergedData**, by only selecting columns: **subjects** and **activity** together with the **mean** and the **standard deviation** for each measurement.
 *contains: 10299 rows and 88 columns*
 
 **Step3:Uses descriptive activity names to name the activities in the data set**
