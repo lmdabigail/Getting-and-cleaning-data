@@ -15,7 +15,7 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 3. Assigning data to variables:
 * **activities<- activity_labels.txt** : List of activities performed when the corresponding measurements were taken.
   contains: 6 rows and 2 columns
-* **features<-features.txt** : List of all features.T he features selected for this database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. 
+* **features<-features.txt** : List of all features. The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. 
    contains: 561 rows and 2 columns  
 * **subjectTest<-subject_test.txt** : Contains test data from 9 out of 30 volunteer (30% data) being observed.
    contains: 2947 rows and 1 column  
