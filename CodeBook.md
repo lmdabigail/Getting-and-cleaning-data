@@ -34,6 +34,7 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 ### B. 5 steps to create a tidy data set as described in the course project assignment's description:
 
 **Step1: Merges the training and the test sets to create one data set (which named mergedData):**
+
 * **subjects** is created by merging **subjectTrain** and **subjectTest** by using **rbind()**.
   *contains: 10299 rows and 1 column*
 * **x** is created by merging **x_train** and **x_test** by using **rbind()**
@@ -44,14 +45,17 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
   *contains: 10299 rows and 563 columns*
 
 **Step2: Extracts only the measurements on the mean and standard deviation for each measurement.**
+
 **tidyDataSet**  is created by:
 subsetting **MergedData**, by only selecting columns: **subjects** and **activity** together with the **mean** and the **standard deviation** for each measurement.
 *contains: 10299 rows and 88 columns*
 
-**Step3: Uses descriptive activity names to name the activities in the data set**
+**Step3: Uses descriptive activity names to name the activities in the data set.**
+
 Each numbers in the **activity** column from the **tidyDataSet** is replaced with its corresponding activity from the **second column** of the **activities** variable
 
 **Step4: Appropriately labels the data set with descriptive variable names.**
+
 * All names started with **t (^t)** in every variable name is replaced by **Time**
 * All names started with **f (^f)** in every variable name is replaced by **Frequency**
 * All names contains **Acc** in every variable name is replaced by **Accelerometer**
@@ -61,6 +65,7 @@ Each numbers in the **activity** column from the **tidyDataSet** is replaced wit
 * All names contains **std** in every variable name is replaced by **StandardDeviation**
 
 **Step5: From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.**
+
 * **independentTidyData**  is created by sumarizing **tidyDataSet** with the **means** of each variable for each activity and each subject, after **groupped by subjects and activity**.
 * Export **independentTidyData**  into **independentTidyData.txt** file.
 
