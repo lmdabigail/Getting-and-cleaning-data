@@ -40,7 +40,7 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 * **x** is created by merging **x_train** and **x_test** by using **rbind()**
   *contains: 10299 rows and 561 columns*
 * **y** is created by merging **y_train** and **y_test** by using **rbind()**
-  *contains: 10299 rows and 1 columns*
+  *contains: 10299 rows and 1 column*
 * Finally, **mergedData** is created by merging **subjects** , **x**, and **y** by using **cbind()**
   *contains: 10299 rows and 563 columns*
 
@@ -66,7 +66,7 @@ Each numbers in the **activity** column from the **tidyDataSet** is replaced wit
 
 **Step5: From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.**
 
-* **independentTidyData**  is created by sumarizing **tidyDataSet** with the **means** of each variable for each activity and each subject, after **groupped by subjects and activity**.
+* **independentTidyData**  is created by sumarizing **tidyDataSet** with the **means** of each variable for each activity and each subject, after **groupped by subjects and activity**. *contains: 180 rows and 88 columns*
 * Export **independentTidyData**  into **independentTidyData.txt** file.
 
 
