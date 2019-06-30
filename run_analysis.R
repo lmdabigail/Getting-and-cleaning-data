@@ -49,6 +49,7 @@ names(tidyDataSet) <- gsub("Coeff","Coefficient", names(tidyDataSet))
 names(tidyDataSet) <- gsub("Gyro","Gyroscope", names(tidyDataSet))
 names(tidyDataSet) <- gsub("Mag","Magnitude", names(tidyDataSet))
 names(tidyDataSet) <- gsub("std","StandardDeviation", names(tidyDataSet))
+names(tidyDataSet) <- gsub("BodyBody","Body", names(tidyDataSet))
 
 
 #Step5: From the data set in step 4, 
