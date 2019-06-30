@@ -40,7 +40,7 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 * **x** is created by merging **x_train** and **x_test** by using **rbind()**
   *contains: 10299 rows and 561 columns*
 * **y** is created by merging **y_train** and **y_test** by using **rbind()**
-  *contains: 10299 rows and 561 columns*
+  *contains: 10299 rows and 1 columns*
 * Finally, **mergedData** is created by merging **subjects** , **x**, and **y** by using **cbind()**
   *contains: 10299 rows and 563 columns*
 
