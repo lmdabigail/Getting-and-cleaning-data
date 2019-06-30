@@ -1,8 +1,8 @@
 ## Code Book
 
 ### The run_analysis.R comprises 2 **major** steps:
-A. the data preparation process, and 
-B. 5 steps to create a tidy data set as described in the course project assignment's description
+* A. the data preparation process, and 
+* B. 5 steps to create a tidy data set as described in the course project assignment's description
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------
 
