@@ -63,6 +63,7 @@ Each numbers in the **activity** column from the **tidyDataSet** is replaced wit
 * All names contains **Gyro** in every variable name is replaced by **Gyroscope**
 * All names contains **Mag** in every variable name is replaced by **Magnitude**
 * All names contains **std** in every variable name is replaced by **StandardDeviation**
+* All names contains **BodyBody** in every variable name is replaced by **Body**
 
 **Step5: From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.**
 
